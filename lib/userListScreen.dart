@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:user_manager_api/user.dart';
 import 'package:http/http.dart' as http;
 import 'package:user_manager_api/userInfoScreen.dart';
-import 'dart:io';
-import 'api.dart';
-import 'db.dart';
 
 Future<List<User>> fetchUsers(String url) async {
 
